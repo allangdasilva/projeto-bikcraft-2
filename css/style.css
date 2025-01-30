@@ -1,6 +1,7 @@
 @import "./header/header.css";
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
+@import "./home/parceiros.css";
 
 /* Utilidades */
 @import "./utilidades/tipografia.css";
