@@ -22,6 +22,7 @@
   color: var(--cor-05);
 }
 .introducao img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
@@ -29,7 +30,7 @@
 @media (max-width: 800px) {
   .introducao-bg {
     background-color: var(--cor-12);
-    box-shadow: inset 0 -60px 0 var(--cor-00);
+    box-shadow: inset 0 -60px var(--cor-00);
   }
   .introducao {
     grid-template-columns: 1fr;
