@@ -1,0 +1,20 @@
+.titulo-bg {
+  padding-block: 60px;
+  background-color: var(--cor-11);
+}
+.titulo {
+  padding-inline: 20px;
+}
+.titulo p {
+  margin-bottom: 4px;
+}
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-block: 40px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: lowercase;
+  }
+}

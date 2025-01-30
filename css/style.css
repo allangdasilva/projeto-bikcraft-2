@@ -16,5 +16,11 @@
 /* Seguros */
 @import "./seguros/seguros.css";
 
+/* Termos */
+@import "./termos/termos.css";
+
+/* Componentes */
+@import "./componentes/titulos-internos.css";
+
 /* Global */
 @import "./global.css";
