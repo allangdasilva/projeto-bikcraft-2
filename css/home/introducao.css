@@ -17,9 +17,6 @@
 .introducao h1 {
   margin-bottom: 32px;
 }
-.introducao h1 span {
-  color: var(--cor-p1);
-}
 .introducao p {
   margin-bottom: 20px;
   color: var(--cor-05);
