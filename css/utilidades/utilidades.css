@@ -17,13 +17,30 @@
   background: var(--cor-10);
   color: var(--cor-02);
 }
+.botao.seta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../images/icones/seta.svg");
+  transition: transform 0.3s;
+}
+.botao.seta:hover::after {
+  transform: translateX(4px);
+}
 .botao.secundario:hover {
   background: var(--cor-09);
 }
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
-@media (max-width: 820px) {
+@media (max-width: 800px) {
   .botao {
     padding: 12px 16px;
     font-size: 1rem;
