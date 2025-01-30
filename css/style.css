@@ -3,6 +3,7 @@
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
+@import "./footer/footer.css";
 
 /* Utilidades */
 @import "./utilidades/tipografia.css";

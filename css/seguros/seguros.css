@@ -53,3 +53,13 @@
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 400px) {
+  .seguros-item h3 {
+    margin-bottom: 20px;
+  }
+  .seguros-item span {
+    grid-column: 1;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}

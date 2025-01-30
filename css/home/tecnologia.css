@@ -17,6 +17,7 @@
 }
 .tecnologia-conteudo h2 {
   margin-bottom: 32px;
+  word-break: break-all;
 }
 .tecnologia-conteudo > p {
   margin-bottom: 20px;
