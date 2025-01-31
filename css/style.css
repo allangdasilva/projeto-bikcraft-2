@@ -23,11 +23,16 @@
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
 
+/* Contato */
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+
 /* Termos */
 @import "./termos/termos.css";
 
 /* Componentes */
 @import "./componentes/titulos-internos.css";
+@import "./componentes/formulario.css";
 
 /* Global */
 @import "./global.css";
