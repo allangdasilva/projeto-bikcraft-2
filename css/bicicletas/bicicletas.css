@@ -6,6 +6,9 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding: 80px 20px;
+  background: url("../../images/dec/bottom-left.svg");
+  background-repeat: no-repeat;
+  background-position: top 20px right 20px;
 }
 .bicicletas-imagem {
   display: grid;
@@ -73,6 +76,7 @@
     grid-template-columns: 1fr;
     gap: 20px;
     padding-block: 40px;
+    background-image: none;
   }
 }
 @media (max-width: 600px) {

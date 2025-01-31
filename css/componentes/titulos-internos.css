@@ -3,6 +3,9 @@
 }
 .titulo {
   padding: 60px 20px;
+  background: url(../../images/dec/top-left-p.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 20px right 20px;
 }
 .titulo p {
   margin-bottom: 4px;
@@ -15,5 +18,10 @@
     font-size: 1rem;
     font-weight: 400;
     text-transform: lowercase;
+  }
+}
+@media (max-width: 600px) {
+  .titulo {
+    background-image: none;
   }
 }

@@ -32,7 +32,9 @@
   align-content: start;
   gap: 20px;
   border-radius: 4px 0px 0px 4px;
-  background-color: var(--cor-12);
+  background: var(--cor-12) url(../../images/dec/top-right.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 20px left 20px;
 }
 .orcamento-produto label {
   display: grid;
@@ -136,12 +138,14 @@
 @media (max-width: 800px) {
   .orcamento {
     grid-template-columns: 1fr;
+    padding-bottom: 60px;
   }
   .orcamento-dados {
     border-radius: 0px 0px 4px 4px;
   }
   .orcamento-produto {
     border-radius: 4px 4px 0px 0px;
+    background-image: none;
   }
 }
 @media (max-width: 400px) {
