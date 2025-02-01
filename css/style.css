@@ -37,5 +37,8 @@
 @import "./componentes/titulos-internos.css";
 @import "./componentes/formulario.css";
 
+/* Animação */
+@import "./animacao/animacao.css";
+
 /* Global */
 @import "./global.css";

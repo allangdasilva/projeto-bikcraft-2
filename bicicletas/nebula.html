@@ -8,8 +8,9 @@
       content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft."
     />
 
-    <link rel="preload" href="../css/style.css" as="style" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preload" href="../css/style.min.css" as="style" />
+    <link rel="stylesheet" href="../css/style.min.css" />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +18,9 @@
       rel="stylesheet"
     />
     <title>Nebula | Bikcraft</title>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body id="bicicleta">
     <header class="header-bg">
@@ -55,19 +59,19 @@
         <div class="bicicleta-imagens">
           <img
             src="../images/bicicleta/nimbus3.jpg"
-            alt=""
+            alt="Bicicleta 1"
             width="1120"
             height="880"
           />
           <img
             src="../images/bicicleta/nimbus1.jpg"
-            alt=""
+            alt="Bicicleta 2"
             width="1120"
             height="880"
           />
           <img
             src="../images/bicicleta/nimbus2.jpg"
-            alt=""
+            alt="Bicicleta 3"
             width="1120"
             height="880"
           />
@@ -81,7 +85,11 @@
           </p>
 
           <div class="bicicleta-comprar">
-            <a class="botao" href="../orcamento.html">Comprar Agora</a>
+            <a
+              class="botao"
+              href="../orcamento.html?tipo=bikcraft&produto=nebula"
+              >Comprar Agora</a
+            >
             <span class="font-1-xs cor-06"
               ><img
                 src="../images/icones/entrega.svg"
@@ -294,5 +302,7 @@
         </p>
       </div>
     </footer>
+
+    <script src="../js/script.js"></script>
   </body>
 </html>
